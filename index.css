@@ -1,3 +1,7 @@
 a:link{color:blue}
 a:visited{color:blue}
-.nav{background-color: wheat}
+body{background-color: wheat; font-family: "標楷體","Times New Roman"}
+#headshot{height:150px; width:180}
+.navleft{height:100%; width:150px; background-color: lightblue;}
+.navleft ul{list-style-type: none; padding:0;}
+.navleft ul li{list-style-type: none;}
