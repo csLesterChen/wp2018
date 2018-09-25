@@ -1,29 +1,95 @@
-a:link{color:blue}
-a:visited{color:blue}
-body{background-color: wheat; font-family: "標楷體","Times New Roman"}
-#headshot{height:150px; width:180}
-.navleft{
-    height:100%; 
-    width:150px; 
-    background-color: lightblue;
-    padding-top: 20px;
-    text-align: center;
-    }
-.navleft ul{list-style-type: none; padding:0; display: block;}
-.navleft ul li{list-style-type: none; padding:0; }
-.navleft ul a{text-decoration: none;}
-.navleft li:hover, .navleft a:hover{background-color:rgb(158, 187, 197)}
-
-.contex { 
-    position:absolute;
-    top:50px;
-    left:200px;
-    height:100%; 
-    width:100%;
-     }
-.contex table{
-    border:2px solid black;
-    border-collapse: collapse;
-    width: 25%;
+body{
+    background-color: rgb(248, 248, 164);
+    font-family: "Times New Roman","標楷體";
+    margin: 0;
 }
-.contex table tr, th ,td { border:1px solid black;}
+
+a:visited{
+    color:blue;
+}
+
+div.navbar{
+    width:98%;
+    height:40px;
+    background-color:white;
+    margin-top:0;
+    padding:5px 0 0 10px;
+    position: fixed;
+    margin-left: 2px;
+    z-index: 1;
+}
+
+#avatar, #menubar{
+    background-size: cover;
+    height:30px;
+    display: inline-block;
+    background-position: center;
+    position: fixed;
+}
+#avatar{
+    background-image:url(./images/conan.jpg);
+    background-size: contain;
+    border-radius: 15px;
+    width:30px;
+   
+    
+}
+
+#menubar{
+    background-image:url(./images/menubar.png);
+    width:50px;
+    left:24em;
+   
+    border:1px solid #b1beca;
+}
+#menubar:hover{background-image:url(./images/menubar2.png);}
+
+
+.centerbar{
+    position:fixed;
+    top:260px;
+    left:250px;
+    height:38%; 
+    width:30%;
+}
+
+.centerbar table{
+    border-collapse: collapse;
+    border:2px solid black;
+
+}
+
+.contex table tr, th ,td {
+    border:1px solid black;
+}
+
+.rightbar{
+    position:absolute;
+    top:280px;
+    left:60%;
+    height:38%; 
+    width:40%;
+    overflow-y:scroll;
+}
+
+.backimg{
+    background-image:url(./images/background_picture.jpg);
+    position: fixed;
+    background-size: cover;
+    top:50px;
+    height: 230px;
+    width:99%;
+    margin-left: 2px;
+    z-index: 1;
+}
+
+.leftbar{
+    background-image:url(./images/moon.jpg);
+    position: fixed;
+    margin-left: 2em;
+    background-size: contain;
+    top:300px;
+    height: 150px;
+    width: 150px;
+    background-repeat:no-repeat;
+}
