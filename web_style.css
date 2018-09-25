@@ -4,6 +4,10 @@ body{
     margin: 0;
 }
 
+a:visited{
+    color:blue;
+}
+
 div.navbar{
     width:98%;
     height:40px;
@@ -92,36 +96,3 @@ div.navbar{
 
 
 
-
-
-
-
-/*a:link{color:blue}
-a:visited{color:blue}
-body{background-color: wheat; font-family: "標楷體","Times New Roman"}
-#headshot{height:150px; width:180}
-.navleft{
-    height:100%; 
-    width:150px; 
-    background-color: lightblue;
-    padding-top: 20px;
-    text-align: center;
-    }
-.navleft ul{list-style-type: none; padding:0; display: block;}
-.navleft ul li{list-style-type: none; padding:0; }
-.navleft ul a{text-decoration: none;}
-.navleft li:hover, .navleft a:hover{background-color:rgb(158, 187, 197)}
-
-.contex { 
-    position:absolute;
-    top:50px;
-    left:200px;
-    height:100%; 
-    width:100%;
-     }
-.contex table{
-    border:2px solid black;
-    border-collapse: collapse;
-    width: 25%;
-}
-.contex table tr, th ,td { border:1px solid black;}*/
