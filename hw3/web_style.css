@@ -1,0 +1,244 @@
+body{
+    background-color: rgb(252, 252, 236);
+    font-family: "Times New Roman","標楷體";
+    margin: 0;
+    
+}
+
+a:visited{
+    color:blue;
+
+}
+
+.back_picture{
+    background-image:url(./images/cat.jpg);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-position: top;
+    background-repeat : no-repeat;
+    background-size: cover;
+}
+
+div.navbar{
+    width:98%;
+    height:40px;
+    background-color:white;
+    margin-top:0;
+    padding:2px 0 0 10px;
+    position: fixed;
+    margin-left: 2px;
+    z-index: 2;
+}
+
+#avatar, #menubar, #date_label{
+    background-size: cover;
+    height:30px;
+    display: inline-block;
+    background-position: center;
+    position: fixed;
+}
+#avatar{
+    background-image:url(./images/conan.jpg);
+    background-size: contain;
+    border-radius: 15px;
+    width:30px;
+
+    
+}
+
+#author{
+    color:rgb(9, 0, 128);
+}
+
+
+#menubar{
+    background-image:url(./images/menubar.png);
+    margin-top:-15px;
+    width:50px;
+    left:47%;
+    border:1px solid #b1beca;
+    display: inline-block;
+}
+#menubar:hover{background-image:url(./images/menubar2.png);}
+
+.menu {
+    position: relative;
+    display: inline-block;
+    left:44%;
+}
+
+
+#menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 6px 8px;
+    z-index: 2;
+    list-style-type: none;
+    
+}
+
+#menu-content li{
+    display: block;
+}
+
+#menu-content li a{
+    color: black;
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+#menu-content li a:hover{
+    background-color: #afc3e0;
+}
+
+.menu:active  #menu-content{
+    display: inline-block;
+}
+
+#date_label{
+    font-size: 1.4rem;
+    left: 77%;
+    padding: 5px;
+    z-index: 3;
+}
+
+.centerbar{
+    position: absolute;
+    top:350px;
+    left:20%;
+    height:38%; 
+    width:30%;
+    
+}
+
+/*.centerbar table{
+    border-collapse: collapse;
+    border:2px solid black;
+
+}*/
+
+.contex table tr, th ,td {
+    border:1px solid black;
+}
+
+.rightbar{
+    position:absolute;
+    top:30px;
+    left:750px;
+    height:90%; 
+    width:40%;
+    overflow-y:scroll;
+}
+
+#slider{
+    clear:both;
+    position: absolute;
+    background-size: cover;
+    top:50px;
+    width:99%;
+    margin-left: 2px;
+    z-index: 1;
+    overflow: hidden;
+    clear:both;
+}
+
+#slider img{
+    position: absolute;
+    background-size: cover;
+    top:50px;
+    height: 300px;
+    width:75%;
+    margin-left: 2px;
+    z-index: 1;
+    
+}
+
+
+.show1{
+    background-image:url(./images/lake.jpg);
+    position: absolute;
+    background-size: cover;
+}
+.show2{
+    background-image:url(./images/beach.jpg);
+    position: fixed;
+    background-size: cover;
+}
+.show3{
+    background-image:url(./images/turtle.jpg);
+    position: fixed;
+    background-size: cover;
+}
+.show4{
+    background-image:url(./images/desk.jpg);
+    position: fixed;
+    background-size: cover;
+}
+.show5{
+    background-image:url(./images/tea.jpg);
+    position: fixed;
+    background-size: cover;
+}
+
+.leftbar{
+    background-image:url(./images/220px-National_Cheng_Kung_University.png);
+    position: absolute;
+    margin-left: 2em;
+    background-size: contain;
+    top:400px;
+    height: 150px;
+    width: 150px;
+    background-repeat:no-repeat;
+}
+
+.centerbar ul li{
+    list-style-type: none;
+    font-family: Arial
+}
+
+.centerbar .title{
+    color:#047904;
+    font-size: 1.3rem;
+    
+    
+}
+
+
+
+
+
+
+/*a:link{color:blue}
+a:visited{color:blue}
+body{background-color: wheat; font-family: "標楷體","Times New Roman"}
+#headshot{height:150px; width:180}
+.navleft{
+    height:100%; 
+    width:150px; 
+    background-color: lightblue;
+    padding-top: 20px;
+    text-align: center;
+    }
+.navleft ul{list-style-type: none; padding:0; display: block;}
+.navleft ul li{list-style-type: none; padding:0; }
+.navleft ul a{text-decoration: none;}
+.navleft li:hover, .navleft a:hover{background-color:rgb(158, 187, 197)}
+
+.contex { 
+    position:absolute;
+    top:50px;
+    left:200px;
+    height:100%; 
+    width:100%;
+     }
+.contex table{
+    border:2px solid black;
+    border-collapse: collapse;
+    width: 25%;
+}
+.contex table tr, th ,td { border:1px solid black;}*/
